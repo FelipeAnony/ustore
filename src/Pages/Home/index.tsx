@@ -1,10 +1,19 @@
-import { Main } from "../../components/MainComponents";
+import * as C from './styles';
 
 function Home() {
-  return ( 
-    <Main>
 
-    </Main>
+  return ( 
+    <C.Container>
+      <C.UpMenuContainer className='upContainer'>
+
+      </C.UpMenuContainer>
+      <C.SideMenuContainer className='sideContainer'>
+        aaaa
+      </C.SideMenuContainer>
+      <C.MainMenuContainer className='mainContainer'>
+
+      </C.MainMenuContainer>
+    </C.Container>
    );
 }
 

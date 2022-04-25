@@ -1,5 +1,5 @@
 import Template from "./components/Template";
-import MainRoutes from "./MainRoutes";
+import MainRoutes from "./Routes";
 
 function App() {
   return ( 

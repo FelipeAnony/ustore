@@ -62,5 +62,17 @@ export const Container = styled.div`
 
   }
 
+  .logout {
+    background-color: transparent;
+    border: none;
+    color: white;
+    font-family: inherit;
+    cursor: pointer;
+
+    &:hover {
+      color: #ccc;
+    }
+  }
+
 
 `

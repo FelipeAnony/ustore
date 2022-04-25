@@ -1,10 +1,15 @@
 import * as C from './styles';
 import { Link } from 'react-router-dom';
-import { isLogged } from '../../helpers/AuthHandler';
+import Cookies from 'js-cookie';
+
+
+function logout() {
+  Cookies.remove('token');
+  window.location.href = '/';
+}
 
 function Header() {
-
-  let logged = isLogged();
+  const isLogged = Cookies.get('token');
 
   return ( 
     <C.Header>
@@ -14,7 +19,7 @@ function Header() {
         </Link>
         <nav>
           <ul>
-            {logged && 
+            {isLogged && 
               <>
                 <li>
                   <Link to={'/my-account'}>
@@ -22,13 +27,13 @@ function Header() {
                   </Link>
                 </li>
                 <li>
-                  <Link to={'/logout'}>
+                  <button className='logout' onClick={() => logout()}>
                     Logout
-                  </Link>
+                  </button>
                 </li>
               </>
             }
-            {!logged &&
+            {!isLogged &&
               <>
                 <li>
                   <Link to={'/login'}>
