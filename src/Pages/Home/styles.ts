@@ -29,14 +29,27 @@ export const UpMenuContainer = styled.div`
 
 export const MainMenuContainer = styled.div<Props>`
   width: calc(100% - 20px);
-  min-height: 600px;
+  min-height: 200px;
   background-color: #ddd;
-  margin: 10px 10px;
+  margin: 10px 10px 2px 10px;
   padding: 5px;
   border-radius: 3px;
   box-shadow: 0 0 3px #999;
   display:flex;
   flex-direction: ${props => props.itensDirection ? 'column-reverse' : 'column'};
   align-items: center;
-  justify-content: ${props => props.itensDirection ? 'flex-end' : 'flex-start'}
+  justify-content: ${props => props.itensDirection ? 'flex-end' : 'flex-start'};
+`
+
+export const PagesContainer = styled.div`
+  width: calc(100% - 20px);
+  min-height: 50px;
+  background-color: #ddd;
+  margin: 5px 10px;
+  padding: 5px;
+  border-radius: 3px;
+  box-shadow: 0 0 3px #999;
+  display:flex;
+  align-items: center;
+  justify-content: center;
 `
