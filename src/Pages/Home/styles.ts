@@ -29,7 +29,7 @@ export const UpMenuContainer = styled.div`
 
 export const MainMenuContainer = styled.div<Props>`
   width: calc(100% - 20px);
-  min-height: 200px;
+  min-height: calc(100vh - 300px);
   background-color: #ddd;
   margin: 10px 10px 2px 10px;
   padding: 5px;

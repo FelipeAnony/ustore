@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   width: 100%;
-  min-height: calc(100vh - 120px);
+  min-height: calc(100vh - 260px);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -22,7 +22,7 @@ export const ErrorMessage = styled.div`
 export const BackgroundCard = styled.div `
   width: calc(100% - 20px);
   max-width: 1000px;
-  min-height: calc(100vh - 260px);
+  min-height: calc(100vh - 300px);
   background-color: #ddd;
   margin:10px auto;
   padding: 10px;

@@ -1,7 +1,7 @@
-import * as C from './styles';
 import { Link } from 'react-router-dom';
 import Cookies from 'js-cookie';
 
+import * as C from './styles';
 
 function logout() {
   Cookies.remove('token');
@@ -22,14 +22,19 @@ function Header() {
             {isLogged && 
               <>
                 <li>
-                  <Link to={'/my-account'}>
-                    My Account
+                  <Link to={'/my-ads'}>
+                    My Ads
                   </Link>
                 </li>
                 <li>
                   <button className='logout' onClick={() => logout()}>
                     Logout
                   </button>
+                </li>
+                <li>
+                  <Link to={'/sell'} className='sellButton'>
+                    Sell in Ustore
+                  </Link>
                 </li>
               </>
             }

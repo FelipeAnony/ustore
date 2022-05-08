@@ -10,9 +10,9 @@ const Template = ({children}: Props) => {
   return ( 
     <>
       <Header/>
-      <Main>
-        {children}
-      </Main>
+        <Main>
+          {children}
+        </Main>
       <Footer />
     </>
    );

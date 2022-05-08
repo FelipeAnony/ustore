@@ -1,13 +1,16 @@
 import { useContext, useEffect, useState } from 'react';
+
+import * as C from './styles';
+
 import DropDownMenu from '../../components/DropDownMenu';
 import ItenCard from '../../components/ItenCard';
 import Loading from '../../components/loading';
 import NoItensFound from '../../components/NoItensFound';
 import PageNavigation from '../../components/PageNavigation';
 import Searchbar from '../../components/Searchbar';
+
 import { filtersContext } from '../../contexts/filtersContext';
 import { getData } from '../../helpers/API';
-import * as C from './styles';
 
 type Itens = {
   id: string;
@@ -17,9 +20,8 @@ type Itens = {
   condition: string;
   categories: string;
   description: string;
+  photos: {src: string;}[];
 }[];
-
-type PageNavigationToRenderType = JSX.Element[];
 
 function Home() {
   const [allItens, setAllItens] = useState<Itens>([]);
@@ -107,16 +109,21 @@ function Home() {
         <DropDownMenu/>
       </C.UpMenuContainer>
       <C.MainMenuContainer itensDirection={itensDirection} className="mainContainer"> 
+      
         {showedItens.length > 0 && showedItens.map((e, id) => (
           <ItenCard 
             title={e.title}
+            imageLink={e.photos[0].src}
+            itenId={e.id}
             price={e.price}
             itemCondition={e.condition}
             date={e.date}
             key={id}
           />
         ))}
+
         {(itens.length < 1 && wasFiltered)  && <NoItensFound/>}
+
       </C.MainMenuContainer>
       <C.PagesContainer>
         <PageNavigation 

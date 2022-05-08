@@ -1,9 +1,12 @@
 import { FormEvent, useState} from 'react';
-import { login } from '../../backend/backendAuth';
-import * as C from './styles';
 import Cookies from 'js-cookie';
+
+import * as C from './styles';
+
 import Input from '../../components/Input';
 import { BackgroundCard } from '../../components/MainComponents';
+
+import { login } from '../../backend/backendAuth';
 
 function Login() {
 

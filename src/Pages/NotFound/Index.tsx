@@ -1,6 +1,8 @@
 import { Link } from "react-router-dom";
-import { BackgroundCard } from "../../components/MainComponents";
+
 import * as C from './Styles';
+
+import { BackgroundCard } from "../../components/MainComponents";
 
 function NotFound() {
   return ( 
