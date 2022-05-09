@@ -27,7 +27,7 @@ After that just install the other dependencies of the project normally with npm 
   Adaptable to any screen and device.
  </li>
  <li>
-  Price, product status and publication date filters to help you find exactly what you need.
+  Price, product condition and publication date filters to help you find exactly what you search for.
  </li>
  <li>
   The search field can filter items by both title and product description, optimizing search results.
