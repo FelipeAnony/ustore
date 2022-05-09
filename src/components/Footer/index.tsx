@@ -10,13 +10,13 @@ function Footer() {
           Ustore
         </div>
         <div className='menu'>
-            <Link to={'/'}>Home</Link>
+            <Link className='menu__a' to={'/'}>Home</Link>
             |
-            <Link to={'/sell'}>Sell with us</Link>
+            <Link className='menu__a' to={'/sell'}>Sell with us</Link>
             |
-            <Link to={'/terms'}>Terms and conditions</Link>
+            <Link className='menu__a' to={'/terms'}>Terms and conditions</Link>
             |
-            <Link to={'/privacy'}>privacy policy</Link>
+            <Link className='menu__a' to={'/privacy'}>privacy policy</Link>
         </div>
         <div className='rights'>
           All rights reserved.

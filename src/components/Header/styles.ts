@@ -15,57 +15,56 @@ export const Container = styled.div`
   display: flex;
   align-items: center;
 
-  a {
+  .header__a {
     text-decoration: none;
   }
 
-  .logo {
+  .header__a--white {
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+      
+    &:hover {
+      color: #ccc;
+    }
+  }
+
+  .header__logo {
     color: green;
     font-size: 28px;
     font-weight: 700;
     margin-left: 10px;
   }
 
-  nav {
+  .header__nav {
     padding-top: 10px;
     padding-bottom:10px;
     margin-left: auto;
-    
-    ul, li {
-      margin: 0;
-      padding: 0;
-      list-style: none;
-    }
-
-    ul {
-      display: flex;
-      align-items: center;
-      height: 40px;
-    }
-    li {
-      margin-right: 20px;
-
-      a {
-        color: white;
-        font-size: 14px;
-      
-        &:hover {
-          color: #ccc;
-        }
-
-        &.sellButton {
-          background-color: green;
-          border-radius: 4px;
-          padding: 5px;
-        }
-
-      }
-
-    }
-
+  }
+  
+  .header__ul, .header__li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
   }
 
-  .logout {
+  .header__ul {
+    display: flex;
+    align-items: center;
+    height: 40px;
+  }
+
+  .header__li {
+    margin-right: 20px;
+  }
+
+  .header__sellButton {
+    background-color: green;
+    border-radius: 4px;
+    padding: 5px;
+  }
+
+  .header__logout {
     background-color: transparent;
     border: none;
     color: white;
@@ -76,6 +75,4 @@ export const Container = styled.div`
       color: #ccc;
     }
   }
-
-
 `
