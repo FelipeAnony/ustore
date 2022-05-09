@@ -1,0 +1,270 @@
+{
+  "auth": [
+    {
+      "id": "1",
+      "email": "admin@admin.com",
+      "password": "password",
+      "token": "10000"
+    },
+    {
+      "email": "test@testing.com",
+      "password": "password",
+      "token": "10001",
+      "id": "q51clEA"
+    }
+  ],
+  "users": [
+    {
+      "id": "10000",
+      "name": "admin",
+      "phone": "555 555 555",
+      "email": "admin@admin.com"
+    },
+    {
+      "id": "10001",
+      "name": "test",
+      "phone": "555555555",
+      "email": "test@testing.com"
+    }
+  ],
+  "posts": [
+    {
+      "id": "1",
+      "author": "10000",
+      "sellerInfo": {
+        "name": "admin",
+        "email": "admin@admin.com",
+        "phone": "555 555 555"
+      },
+      "title": "Iphone 13 pro max",
+      "price": "999",
+      "condition": "new",
+      "description": "new iphone 13 pro max, perfect condition",
+      "date": "24/02/2022",
+      "categories": "CellPhones",
+      "photos": [
+        {
+          "src": "https://static.k-tuin.com/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/c/o/comprar-nuevo-iphone-13-pro-max-color-plata-128gb.jpg"
+        },
+        {
+          "src": "https://i.blogs.es/779470/1366_2000/500_500.jpeg"
+        },
+        {
+          "src": "https://i2.wp.com/maplestore.in/wp-content/uploads/2021/09/r1433_Starlight_PDP_Image_Position-8_Avail__en-IN.jpg?fit=2048%2C2048&ssl=1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "author": "10000",
+      "sellerInfo": {
+        "name": "admin",
+        "email": "admin@admin.com",
+        "phone": "555 555 555"
+      },
+      "title": "Iphone 13 pro max",
+      "price": "100",
+      "condition": "new",
+      "description": "Good product",
+      "date": "24/02/2022",
+      "categories": "CellPhones",
+      "photos": [
+        {
+          "src": "https://static.k-tuin.com/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/c/o/comprar-nuevo-iphone-13-pro-max-color-plata-128gb.jpg"
+        },
+        {
+          "src": "https://i.blogs.es/779470/1366_2000/500_500.jpeg"
+        },
+        {
+          "src": "https://i2.wp.com/maplestore.in/wp-content/uploads/2021/09/r1433_Starlight_PDP_Image_Position-8_Avail__en-IN.jpg?fit=2048%2C2048&ssl=1"
+        }
+      ]
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "BMW X1 2022",
+      "price": "35000",
+      "condition": "used",
+      "description": "BMW x1 in excellent condition, few km driven",
+      "date": "8/05/2022",
+      "categories": "Vehicles",
+      "photos": [
+        {
+          "src": "https://www.autobild.es/sites/autobild.es/public/dc/fotos/X1_2019.jpg"
+        }
+      ],
+      "id": "zQULESx"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Tv samsung 60\" 4k ",
+      "price": "499",
+      "condition": "new",
+      "description": "New Samsung 60\" 4k television",
+      "date": "8/5/2022",
+      "categories": "Electronics",
+      "photos": [
+        {
+          "src": "https://images.samsung.com/is/image/samsung/cl-uhdtv-nu7200-un58nu7200gxzs-frontblack-171962433?$PD_GALLERY_L_JPG$"
+        },
+        {
+          "src": "https://m.media-amazon.com/images/I/51v5EQfPWcL._AC_SX355_.jpg"
+        }
+      ],
+      "id": "qK8s-1B"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Adidas hoodie",
+      "price": "49",
+      "condition": "new",
+      "description": "adidas hoodie ",
+      "date": "8/5/2022",
+      "categories": "Clothes",
+      "photos": [
+        {
+          "src": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/f8818829320a46ce914aac710130b83c_9366/sudadera-essentials-big-logo.jpg"
+        },
+        {
+          "src": "https://assets.adidas.com/images/w_383,h_383,f_auto,q_auto,fl_lossy,c_fill,g_auto/714ca1da49e64f63bbaead1a00862f9e_9366/sudadera-con-capucha-essentials-fleece.jpg"
+        }
+      ],
+      "id": "Aa-961H"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Tag Heur watch",
+      "price": "1499",
+      "condition": "used",
+      "description": "^^",
+      "date": "8/5/2022",
+      "categories": "Electronics",
+      "photos": [
+        {
+          "src": "https://i.blogs.es/4bead2/regular-tag-heuer-carrera-watches/450_1000.jpg"
+        }
+      ],
+      "id": "3pLtadu"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Nike Mercurial",
+      "price": "29",
+      "condition": "new",
+      "description": "",
+      "date": "8/5/2022",
+      "categories": "Sports",
+      "photos": [
+        {
+          "src": "https://images.lojanike.com.br/1024x1024/produto/206507_1857608_20191203112406.jpg"
+        }
+      ],
+      "id": "Mx0at5U"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "garden hose",
+      "price": "19",
+      "condition": "new",
+      "description": "",
+      "date": "8/5/2022",
+      "categories": "Garden",
+      "photos": [
+        {
+          "src": "https://m.media-amazon.com/images/I/A1Vt6fL8rRL._AC_SX355_.jpg"
+        }
+      ],
+      "id": "K9Y_O9E"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Toy Story Figure",
+      "price": "9999",
+      "condition": "used",
+      "description": "the real toy story dino",
+      "date": "8/5/2022",
+      "categories": "Kid's",
+      "photos": [
+        {
+          "src": "https://ayayai.cl/content-1_145635/thumb-50cm-de-Disney-Toy-Story-4-banda-Sonora-de-la-Pel%C3%ADcula.jpg"
+        }
+      ],
+      "id": "kxzjDLE"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Wardrobe",
+      "price": "99",
+      "condition": "new",
+      "description": "",
+      "date": "8/5/2022",
+      "categories": "House",
+      "photos": [
+        {
+          "src": "https://i.pinimg.com/originals/0d/3f/53/0d3f533157c08883a24a3c25537af8b2.jpg"
+        }
+      ],
+      "id": "XqWtrUr"
+    },
+    {
+      "author": "10001",
+      "sellerInfo": {
+        "name": "test",
+        "email": "test@testing.com",
+        "phone": "555555555"
+      },
+      "title": "Guitar",
+      "price": "1",
+      "condition": "new",
+      "description": "guitarrrrr",
+      "date": "8/5/2022",
+      "categories": "",
+      "photos": [
+        {
+          "src": "https://d1aeri3ty3izns.cloudfront.net/media/23/235459/600/preview_4.jpg"
+        }
+      ],
+      "id": "pXIJMN1"
+    }
+  ]
+}
