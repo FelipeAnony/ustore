@@ -11,23 +11,25 @@ After that just install the other dependencies of the project normally with npm 
  npm start
 </pre>
 
+### Mobile main pages 
+
+![mobileview](https://user-images.githubusercontent.com/95437147/167489568-3ae540dd-e35c-4666-8416-cbccb6cc2b98.png)
+<br/>
+<br/>
+
 ### Main page view on desktop
 ![localhost_3000_ (1)](https://user-images.githubusercontent.com/95437147/167314420-b1ccd98c-c93f-4dcd-ad55-2a342f0e76d2.png)
 
-<br/>
-<br/>
-
-### Main page view on mobile 
-
-<img style="width: 250px" src='https://user-images.githubusercontent.com/95437147/167314474-8431a619-3f75-4f8b-ac49-7f2ad32e90ac.png' />
-
-### features
+### Features
 <ul> 
  <li>
   Adaptable to any screen and device.
  </li>
+  <li>
+   Easy to post and edit your ads.
+ </li>
  <li>
-  Price, product status and publication date filters to help you find exactly what you need.
+  Price, product condition and publication date filters to help you find exactly what you search for.
  </li>
  <li>
   The search field can filter items by both title and product description, optimizing search results.
