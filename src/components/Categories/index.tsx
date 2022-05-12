@@ -26,7 +26,7 @@ function Categories({title, changeString}: Props) {
     >
       {title}
     </C.Categories>
-   );
+  );
 }
 
 export default Categories;

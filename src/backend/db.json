@@ -55,32 +55,6 @@
       ]
     },
     {
-      "id": "2",
-      "author": "10000",
-      "sellerInfo": {
-        "name": "admin",
-        "email": "admin@admin.com",
-        "phone": "555 555 555"
-      },
-      "title": "Iphone 13 pro max",
-      "price": "100",
-      "condition": "new",
-      "description": "Good product",
-      "date": "24/02/2022",
-      "categories": "CellPhones",
-      "photos": [
-        {
-          "src": "https://static.k-tuin.com/media/catalog/product/cache/1/image/0dc2d03fe217f8c83829496872af24a0/c/o/comprar-nuevo-iphone-13-pro-max-color-plata-128gb.jpg"
-        },
-        {
-          "src": "https://i.blogs.es/779470/1366_2000/500_500.jpeg"
-        },
-        {
-          "src": "https://i2.wp.com/maplestore.in/wp-content/uploads/2021/09/r1433_Starlight_PDP_Image_Position-8_Avail__en-IN.jpg?fit=2048%2C2048&ssl=1"
-        }
-      ]
-    },
-    {
       "author": "10001",
       "sellerInfo": {
         "name": "test",

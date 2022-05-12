@@ -4,7 +4,7 @@ import Home from "./Pages/Home";
 import ItenPage from "./Pages/ItenPage";
 import Login from "./Pages/Login";
 import MyAds from "./Pages/MyAds";
-import NotFound from "./Pages/NotFound/Index";
+import NotFound from "./Pages/NotFound";
 import SellPage from "./Pages/SellPage";
 import SignUp from "./Pages/SignUp";
 

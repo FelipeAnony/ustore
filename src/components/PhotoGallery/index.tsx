@@ -71,7 +71,10 @@ function PhotoGallery({ imageSrc } : Props) {
       </div>
       <div className='photoGallery__row'>
         {imageSrc.map((e, i) =>(
-          <div className='photoGallery__imageContainer'>
+          <div 
+            className='photoGallery__imageContainer'
+            key={i}
+          >
             <img className='photoGallery__img' src={e.src} alt=''/>
           </div>
         ))}

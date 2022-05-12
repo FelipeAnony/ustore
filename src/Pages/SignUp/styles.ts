@@ -25,6 +25,10 @@ export const acceptInputContainer = styled.div`
   label {
     display: flex;
     align-items: center;
+
+    @media(max-width: 500px) {
+      font-size: 14px;
+    }
   }
 
   a {

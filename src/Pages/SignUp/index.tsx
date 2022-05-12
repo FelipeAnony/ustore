@@ -143,7 +143,7 @@ function SignUp() {
         />
         <C.acceptInputContainer>
           <label>
-            I accept the <a href='/terms' target='_blank'>terms of use</a> and conditions.
+            <div>I accept the</div> <a href='/terms' target='_blank'>terms of use</a> and conditions.
             <input 
               type='checkbox' 
               checked={acceptance} 
